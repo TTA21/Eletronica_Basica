@@ -1,0 +1,11 @@
+* C:\users\tta21\My Documents\work\Univali\2021-2\Eletronica Basica\A_08-10\Draft1.asc
+V1 N001 0 12
+I1 0 N002 1
+Q1 P001 N002 0 0 2N4124
+R1 N001 P001 1
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\tta21\My Documents\LTspiceXVII\lib\cmp\standard.bjt
+.dc V1 0 10 1 I1 0 0.001 0.0001
+.backanno
+.end
